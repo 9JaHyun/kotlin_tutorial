@@ -4,6 +4,7 @@ package _09_Inheritance
 // 추가로 super() 처럼 뒤에 파라미터를 넣어 상위 클래스 생성자를 불러주자.
 class Cat(
     species: String,
+    // 생성자를 반드시 호출해야 함.
     ) : Animal(species, 4){
 
     // override 시 예약어를 붙여주자.
